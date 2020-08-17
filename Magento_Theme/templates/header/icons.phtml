@@ -1,0 +1,21 @@
+<div class="header-icons-container">
+    <div class="header-icons">
+        <?php echo $block->getChildHtml('minicart') ?>
+      <div class="account-icon dropdown">
+          <li><a class="dropdown-toggle caret-icon" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a></li>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="/customer/account/login">Logirate se</a>
+              <a class="dropdown-item" href="/customer/account/create">Napravite racun</a>
+          </div>
+      </div>
+
+       <div class="catalog-compare-icon"><?php echo $block->getChildHtml('catalog.compare.link') ?></div>
+    </div>
+</div>
+<script>
+    require(['jquery'], function($) {
+       $(document).ready(function() {
+           $('.dropdown').click(function() {$('.dropdown-menu').toggleClass('show');});
+       });
+    });
+</script>

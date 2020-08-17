@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <link rel="stylesheet" type="text/css" src="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" src_type="url"/>
+        <script src="http://use.fontawesome.com/193aba6228.js" src_type="url"/>
+        <link rel="stylesheet" src="css/bootstrap-4.3.1-dist/bootstrap.min.css" as="style" />
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.js" src_type="url"/>
+
+    </head>
+</page>
